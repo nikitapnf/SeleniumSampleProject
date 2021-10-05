@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-05T11:31:52 IST" name="Suite" finished-at="2021-10-05T11:32:11 IST" duration-ms="19183">
+    <groups>
+    </groups>
+    <test started-at="2021-10-05T11:31:52 IST" name="Test" finished-at="2021-10-05T11:32:11 IST" duration-ms="19183">
+      <class name="SeleniumFramework.homePageNavigation">
+        <test-method is-config="true" signature="driveropen()[pri:0, instance:SeleniumFramework.homePageNavigation@120f102b]" started-at="2021-10-05T11:31:55 IST" name="driveropen" finished-at="2021-10-05T11:31:57 IST" duration-ms="1770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveropen -->
+        <test-method signature="initialNavigation()[pri:0, instance:SeleniumFramework.homePageNavigation@120f102b]" started-at="2021-10-05T11:31:59 IST" name="initialNavigation" finished-at="2021-10-05T11:32:04 IST" duration-ms="5393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialNavigation -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:SeleniumFramework.homePageNavigation@120f102b]" started-at="2021-10-05T11:32:11 IST" name="driverclose" finished-at="2021-10-05T11:32:11 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- SeleniumFramework.homePageNavigation -->
+      <class name="SeleniumFramework.Assertion">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:SeleniumFramework.Assertion@1d730606]" started-at="2021-10-05T11:31:52 IST" name="openbrowser" finished-at="2021-10-05T11:31:55 IST" duration-ms="3041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="assertionTest()[pri:0, instance:SeleniumFramework.Assertion@1d730606]" started-at="2021-10-05T11:32:04 IST" name="assertionTest" finished-at="2021-10-05T11:32:04 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertionTest -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:SeleniumFramework.Assertion@1d730606]" started-at="2021-10-05T11:32:11 IST" name="browserclose" finished-at="2021-10-05T11:32:11 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- SeleniumFramework.Assertion -->
+      <class name="SeleniumFramework.textNGparameterizing">
+        <test-method is-config="true" signature="driveropen()[pri:0, instance:SeleniumFramework.textNGparameterizing@3bcbb589]" started-at="2021-10-05T11:31:57 IST" name="driveropen" finished-at="2021-10-05T11:31:59 IST" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveropen -->
+        <test-method signature="initialNavigation(java.lang.String,java.lang.String)[pri:0, instance:SeleniumFramework.textNGparameterizing@3bcbb589]" started-at="2021-10-05T11:32:04 IST" name="initialNavigation" data-provider="setdata" finished-at="2021-10-05T11:32:10 IST" duration-ms="5394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ profacc.nikita.nainwal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Niki@7890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialNavigation -->
+        <test-method signature="initialNavigation(java.lang.String,java.lang.String)[pri:0, instance:SeleniumFramework.textNGparameterizing@3bcbb589]" started-at="2021-10-05T11:32:10 IST" name="initialNavigation" data-provider="setdata" finished-at="2021-10-05T11:32:11 IST" duration-ms="1370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nikitanainwal1997@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Niki@7890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialNavigation -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:SeleniumFramework.textNGparameterizing@3bcbb589]" started-at="2021-10-05T11:32:11 IST" name="closedriver" finished-at="2021-10-05T11:32:11 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- SeleniumFramework.textNGparameterizing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

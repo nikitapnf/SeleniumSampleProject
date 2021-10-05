@@ -1,0 +1,4 @@
+SeleniumFramework\App.class
+pageObject\CredentialsPage.class
+pageObject\loginHome.class
+resource\Base.class
