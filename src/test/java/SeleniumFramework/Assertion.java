@@ -50,13 +50,15 @@ public class Assertion extends Base {
 	@AfterTest
 	public void atest() {
 		System.out.print("hi");
+		System.out.print("hello");
 		
 	}
 
 	@AfterTest
 	public void browserclose() {
-
+		System.out.print("new change for testing");
 		driver.quit();
+		
 		log.info("Browser Closed");
 	
 
