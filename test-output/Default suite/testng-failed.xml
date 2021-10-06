@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumFramework.homePageNavigation">
+      <class name="SeleniumFramework.Assertion">
         <methods>
-          <include name="initialNavigation"/>
+          <include name="browserclose"/>
+          <include name="atest"/>
+          <include name="assertionTest"/>
+          <include name="openbrowser"/>
         </methods>
-      </class> <!-- SeleniumFramework.homePageNavigation -->
+      </class> <!-- SeleniumFramework.Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

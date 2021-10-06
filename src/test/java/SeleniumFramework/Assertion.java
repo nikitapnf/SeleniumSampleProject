@@ -26,7 +26,7 @@ public class Assertion extends Base {
 		driver = driverInitialize();
 		log.info("Driver called");
 
-		driver.get(prop.getProperty(""));
+		driver.get(prop.getProperty("url"));
 		log.info("Navigated to URL");
 	
 	}
@@ -45,13 +45,20 @@ public class Assertion extends Base {
 		log.info("Checked for navigation");
 
 	}
+	
+	
+	@AfterTest
+	public void atest() {
+		System.out.print("hi");
+		
+	}
 
 	@AfterTest
 	public void browserclose() {
 
 		driver.quit();
 		log.info("Browser Closed");
-		
+	
 
 	}
 
